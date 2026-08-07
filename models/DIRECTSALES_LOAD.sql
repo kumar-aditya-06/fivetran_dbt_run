@@ -1,4 +1,4 @@
 select 
   * 
 from 
-  DIRECTSALES_STG_LOAD
+  {{ source('DIRECTSALES_STG_LOAD') }}
