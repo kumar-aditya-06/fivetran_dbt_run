@@ -1,4 +1,4 @@
-{{ config( schema = 'RAW_DATA_S3'
+{{ config( schema = 'RAW_DATA_S3',
            materialized = 'table' ) }}
  
 select *
