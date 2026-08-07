@@ -4,3 +4,8 @@ sources:
     schema: RAW_DATA_S3
     tables:
         - name: DIRECTSALES_STG_LOAD
+  - name: reabte
+    database: FIVETRAN
+    schema: RAW_DATA_S3
+    tables:
+      - name: REBATE_STG_LOAD
