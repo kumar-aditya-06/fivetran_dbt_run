@@ -1,0 +1,6 @@
+sources:
+  - name: DIRECTSALES_STG_LOAD
+    database: FIVETRAN
+    schema: RAW_DATA_S3
+    tables:
+        - name: DIRECTSALES_STG_LOAD
