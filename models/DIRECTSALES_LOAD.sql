@@ -1,3 +1,5 @@
+{{ config( schema = 'RAW_DATA_S3') }}
+ 
 select 
   * 
 from 
